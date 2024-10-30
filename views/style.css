@@ -1,0 +1,186 @@
+
+@import url('player1.css');
+
+
+.simple-mp3-player-holder .nextPage{
+
+    background-color: #fff;
+    padding:0 2px;
+    font-size: 10px;
+    float:right;
+    margin: 2px;
+    line-height:14px;
+}
+
+
+.simple-mp3-player-holder .hidePage1{
+    display:block;
+
+}
+
+
+
+.simple-mp3-player-holder .hidePage2{
+    display:none;
+
+}
+
+
+
+.simple-mp3-player-holder .mp3-item {
+    /*border-bottom:1px solid #000;
+    margin-left:0px;
+    padding: 0;
+    padding-top:4px;
+    */                            
+}
+
+
+
+
+.simple-mp3-player-holder .mp3-item a {
+
+
+
+    font-size:12px;
+    font-weight:normal;
+    background-color: #ccc;
+    display:block;
+    padding:3px;
+    margin:0px 0px 1px 0px;
+    border-bottom:1px solid #fff;
+
+}
+
+
+.simple-mp3-player-holder .simple-mp3-player{
+    width:216px;
+    padding:0px;
+    margin:10px 10px 0px 10px;
+    height: 274px;
+    overflow: hidden;
+    background-color:transparent;
+}
+.playerholder{
+
+    margin:0px 10px;
+}
+
+.simple-mp3-player-holder{
+
+    background-color: #ccc;
+    width:550px;
+    height:320px;
+    border:1px solid #999;
+
+
+}
+
+.simple-mp3-player-holder img{
+
+    margin: 10px; 
+    padding-left:0px;
+    border:none;
+    background: none;
+    float:right;
+
+}
+
+
+
+.simple-mp3-player-holder .simple-mp3-player img{
+    margin: 0px;
+    padding:0px;
+    border:none;
+    background: none;
+}
+
+
+
+.simple-mp3-player-holder .simple-mp3-player a.playing{
+    background-color: #bbb;
+
+}          
+
+.mp3-item a.download {
+    width: 2px;
+    padding-left: 15px;
+    background-image: url('pil2.gif');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-decoration: none;
+    margin-top: 4px;
+    border-top: #aaa solid 0px;
+    border-right: #aaa solid 0px;
+    border-left: #aaa solid 0px;
+    border-bottom: #aaa solid 0px;
+}
+
+
+
+.simple-mp3-player-holder  .playerholder .button {
+    line-height: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    padding:0px;
+}
+
+.simple-mp3-player-holder  .playercontroller .button {
+    line-height: 12px;
+    
+    cursor: pointer;
+    font-size: 12px;
+    background-color: transparent !important;
+    border:none;
+    text-decoration: none;
+    padding:0px;
+    
+}
+/*responsive*/
+
+@media only screen and (max-width: 658px) {
+
+	
+	.simple-mp3-player-holder .clear-responsive{
+		clear:both;
+	
+	}
+	
+	.simple-mp3-player-holder {
+    
+		width:auto;
+		height:auto;
+	
+	}
+	
+	.simple-mp3-player-holder img {
+    
+		margin:0px;
+		width:100%;
+		height:auto;
+	}
+	
+	
+	.simple-mp3-player-holder .simple-mp3-player {
+		width: auto;
+		padding: 0px;
+		margin: 10px 10px 0px 10px;
+		height: auto;
+		overflow: hidden;
+		background-color: transparent;
+		}
+	
+	
+	.simple-mp3-player-holder .playercontroller {
+		padding: 2px;
+		background-color: #ddd;
+		color: #000;
+		height: 20px;
+		width: auto;
+   	
+   		}
+
+	}

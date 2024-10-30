@@ -1,0 +1,79 @@
+
+.simple-mp3-player-holder  .mp3-item {
+    /*border-bottom:1px solid #000;
+    margin-left:0px;
+    padding: 0;
+    padding-top:4px;
+   */
+   float:left;
+   width: 195px;
+   text-align: center;
+   border: solid #aaa 1px;
+   margin:2px;
+   height:220px;
+   background-color:#fff;
+   
+   line-height:16px;
+}
+
+.simple-mp3-player-holder .mp3-item h3{
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.simple-mp3-player-holder  .mp3-item a {
+
+    font-size:12px;
+    font-weight:normal;
+    /*background-color: #ccc;*/
+    display:block;
+    padding:3px;
+    margin:1px;
+ 
+}
+
+.simple-mp3-player-holder  .simple-mp3-player{
+   /* width:216px;
+    padding:0px;
+    margin:10px;
+    float: left;  */
+}
+
+.simple-mp3-player-holder{
+	width:auto;                
+}
+
+.simple-mp3-player-holder img{
+    margin: 0px;
+    padding:10px;
+    padding-left:0px;
+    border:none;
+    background: none;
+    
+}
+
+
+.simple-mp3-player-holder .simple-mp3-player img{
+	margin: 0px auto;
+    padding:0px;
+    border:none;
+    background: none;
+}
+
+
+.simple-mp3-player-holder .simple-mp3-player a.playing{
+    background-color: #aaa;
+    
+}          
+
+.simple-mp3-player-holder  .mp3-item a.download {
+    width: 2px;
+ padding-left: 15px;
+    background-image: url('pil2.gif');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-decoration: none;
+    border-left: #aaa solid 1px;
+    border-bottom: #aaa solid 1px;
+}

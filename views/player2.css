@@ -1,0 +1,238 @@
+
+
+/******************************************************************************/
+/* PLAYER                                                                     */
+/******************************************************************************/
+.displayTrackName{
+
+    font-size:8px;
+    width:166px;
+    float:right;
+    height:15px;
+    color:#fff;
+}
+
+.playerclear {
+    font-size: 0px;
+    height:0px;
+    line-height:0px;
+    clear:both;
+    margin:0px;
+    padding:0px
+}
+.player {
+    float: left;
+    width: 200px;
+    margin: 1em;
+}
+.playerpreview {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.playercontroller {
+    background-color: #35A569;
+    color: #000;
+    height: 40px;
+
+    border: solid 0px #ccc;
+    margin: 1px;
+}
+.playercontroller .button {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    float: left;
+}
+.playercontroller .button a {
+    display: block;
+    height: 40px;
+    text-indent: -100em;
+    overflow: hidden;
+    background-image: none;
+}
+.playercontroller .timeline {
+    position: relative;
+}
+.playercontroller .timeline a {
+    position: absolute;
+    left: 40px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-indent: -100em;
+    overflow: hidden;
+    background-image: url(images/control_slider.png);
+}
+.playercontroller .timeline a:visited {
+    background-image: url(images/control_slider.png);
+}
+.playercontroller .timeline a:hover {
+    background-image: url(images/control_slider_blue.png);
+}
+.playercontroller .play {
+    background-image: url(play.png);
+    background-size: 20px;
+    background-position: 14px 10px;
+    background-position: 14px 10px;
+
+}
+.playercontroller .play:hover {
+    background-image: url(play.png);
+    background-color:#777;
+    background-size: 20px;
+}
+.playercontroller .pause {
+    background-image: url(pause.png);
+    display: none;
+    background-size: 20px;
+    background-position: 12px 12px;
+}
+.playercontroller .pause:hover {
+    background-image: url(pause.png);
+    background-color:#777;
+    background-size: 20px;
+    background-position: 12px 12px;
+
+}
+.playercontroller .stop {
+    /*   background-image: url(stop.png);
+    */
+    width:0px;
+}
+.playercontroller .stop:hover {
+    background-image: url(images/control_stop_blue.png);
+}
+
+/******************************************************************************/
+/* GENERATOR                                                                  */
+/******************************************************************************/
+#player {
+    margin: 10px 0;
+}
+#generator {
+    border: solid 1px #878bb4;
+    clear: both;
+}
+#generator h3 {
+    margin: 0;
+    background-color: #878bb4;
+    color: #fff;
+    font-size: 1em;
+    padding: 4px;
+}
+
+
+/**slider */
+.carpe_horizontal_slider_display_combo {
+    clear: left; margin: 0px
+}
+.carpe_vertical_slider_display_combo {
+    float: left; margin: 0px
+}
+.carpe_horizontal_slider_track {
+    padding-right: 4px; 
+    padding-left: 4px;
+    font-size: 0px; 
+    float: left;
+    margin: 4px 0px; 
+    width: 120px; 
+    color: #333;
+    line-height: 0px; 
+    background-color: none; 
+    text-align: left
+}
+.carpe_horizontal_slider_track .carpe_slider_slit {
+    border-right: #ddd 1px solid; 
+    border-top: #999 1px solid; 
+    z-index: 2  ; 
+    margin: 4px 4px 2px;
+    border-left: #999 1px solid; 
+    width: 110px;
+    color: #ccc;
+    line-height: 0px; 
+    border-bottom: #ddd 1px solid;
+    position: absolute;
+    height: 2px; 
+    /*background-color: #333*/
+}
+
+.carpe_horizontal_slider_track .carpe_slider_slit2 {
+    border-right: #ddd 1px solid; 
+    border-top: #999 1px solid; 
+    z-index: 10; 
+    margin: 4px 4px 2px;
+    border-left: #999 1px solid; 
+    color: #444;
+    line-height: 0px; 
+    border-bottom: #ddd 1px solid;
+    position: absolute;
+    height: 2px; 
+    background-color: #fff
+}
+
+.carpe_horizontal_slider_track .carpe_slider {
+    border-right: #555 0px solid;
+    border-top: #999 0px solid; 
+    font-size: 0px;
+    z-index: 5000; 
+    margin: 0px;
+    border-left: #999 0px solid; 
+    width: 15px;
+    color: #333;
+    line-height: 0px;
+    border-bottom: #555 0px solid; 
+    position: relative;
+    height: 15px;
+    /*background-color: #333;*/
+    text-align: left;
+    background-image:url('dot.png');
+    background-size:15px;
+    background-position:0px -1px;
+}
+.carpe_slider_display_holder {
+    border-right: #999 1px solid;
+    padding-right: 2px; 
+    border-top: #ddd 1px solid; 
+    padding-left: 0px; 
+    float: left;
+    padding-bottom: 0px;
+    margin: 0px; 
+    border-left: #ddd 1px solid; 
+    width: 34px;
+    color: #333;
+    padding-top: 0px;
+    border-bottom: #999 1px solid; 
+    height: 20px;
+    background-color: #bbb;
+    text-align: right
+}
+.carpe_slider_display {
+
+    border-top-width: 0px; 
+    padding-right: 1px;
+    padding-left: 0px;
+    font-weight: bold;
+    border-left-width: 0px;
+    font-size: 11px;
+    border-bottom-width: 0px; 
+    padding-bottom: 0px; 
+    width: 30px; 
+    cursor: default;
+    color: #333;
+    line-height: 10px;
+    padding-top: 3px; 
+    font-family: verdana, arial, helvetica, sans-serif;
+    background-color: #bbb;
+    text-align: right; 
+    border-right-width: 0px
+}
+.info_bytes{
+    margin-top: 0px;
+    margin-right:12px;
+    color:#fff;
+    font-size: 12px;
+    float:right;
+
+}
